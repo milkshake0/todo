@@ -1,0 +1,73 @@
+.TodoTemplate {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #eee;
+  margin-top: 50px;
+  .centered {
+    text-align: center;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.TodoList {
+  .allClearBtn_con {
+    text-align: right;
+    padding: 10px;
+  }
+  .allClearBtn {
+    color: #888;
+    cursor: pointer;
+  }
+}
+.nothing {
+  text-align: center;
+  color: #888;
+  margin-top: 20px;
+}
+
+.TodoInsert {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  font-size: 20px;
+  .inputbox {
+    flex-basis: 95%;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  .addbox {
+    flex-basis: 5%;
+    align-self: center;
+    cursor: pointer;
+  }
+}
+.TodoListItem {
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  flex-flow: row wrap;
+  .checkbox,
+  .removebox {
+    flex-basis: 5%;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .textbox {
+    flex-basis: 90%;
+  }
+  .inputbox {
+    flex-basis: 90%;
+    font-size: 16px;
+    color: #888;
+  }
+}
+.line {
+  text-decoration: line-through;
+}
